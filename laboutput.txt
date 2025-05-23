@@ -20,23 +20,33 @@ test_3 (__main__.lab2b.test_3)
 test_4 (__main__.lab2b.test_4)
 [Lab 2] - [Investigation 1] - [Part 1] - using input() - Test output with sending input "Jen" "25": ./lab2b.py ... ok
 test_0 (__main__.lab2c.test_0)
-[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test for file creation: ./lab2c.py ... FAIL
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test for file creation: ./lab2c.py ... ok
+test_1 (__main__.lab2c.test_1)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test for errors with 2 args: ./lab2c.py Jon 20 ... ok
+test_2 (__main__.lab2c.test_2)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test for correct shebang line: ./lab2c.py ... ok
+test_3 (__main__.lab2c.test_3)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test output for: ./lab2c.py Jon 20 ... ok
+test_4 (__main__.lab2c.test_4)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test output for: ./lab2c.py Jen 25 ... ok
+test_0 (__main__.lab2d.test_0)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for file creation: ./lab2d.py ... FAIL
 
 ======================================================================
-FAIL: test_0 (__main__.lab2c.test_0)
-[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test for file creation: ./lab2c.py
+FAIL: test_0 (__main__.lab2d.test_0)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for file creation: ./lab2d.py
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/home/jgylagan/ops445/lab2/lab-2-JohnGabrielYlagan/CheckLab2.py", line 129, in test_0
-    self.assertTrue(os.path.exists('./lab2c.py'), msg=error_output)
-AssertionError: False is not true : your file cannot be found (HINT: make sure your file are in the correct directory)
+  File "/home/jgylagan/ops445/lab2/lab-2-JohnGabrielYlagan/./CheckLab2.py", line 176, in test_0
+    self.assertTrue(os.path.exists('./lab2d.py'), msg=error_output)
+AssertionError: False is not true : your script cannot be found (HINT: make sure AND your file are in the correct directory)
 
 ----------------------------------------------------------------------
-Ran 10 tests in 0.057s
+Ran 15 tests in 0.090s
 
 FAILED (failures=1)
-OPS445 Lab Report - System Information for running CheckLab2.py
-===============================================================
+OPS445 Lab Report - System Information for running ./CheckLab2.py
+=================================================================
     User login name: jgylagan
     Git Email: jgylagan@myseneca.ca
     Linux system name: jgylaganOPS445
@@ -44,5 +54,5 @@ OPS445 Lab Report - System Information for running CheckLab2.py
     Python version:  3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
     OS Platform: linux
     Working Directory: /home/jgylagan/ops445/lab2/lab-2-JohnGabrielYlagan
-    Start at: Fri May 23 12:21:10 2025
-===============================================================
+    Start at: Fri May 23 13:15:53 2025
+=================================================================
