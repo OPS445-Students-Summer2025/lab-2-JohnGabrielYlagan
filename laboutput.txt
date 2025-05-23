@@ -34,21 +34,35 @@ test_0 (__main__.lab2d.test_0)
 test_1 (__main__.lab2d.test_1)
 [Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors with 0 args: ./lab2d.py ... ok
 test_2 (__main__.lab2d.test_2)
-[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for correct shebang line: ./lab2d.py ... FAIL
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for correct shebang line: ./lab2d.py ... ok
+test_3 (__main__.lab2d.test_3)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors: ./lab2d.py Jon ... ok
+test_4 (__main__.lab2d.test_4)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors: ./lab2d.py Jon 20 ... ok
+test_5 (__main__.lab2d.test_5)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors: ./lab2d.py Jon 20 More ... ok
+test_6 (__main__.lab2d.test_6)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test output with 0 args: ./lab2d.py ... ok
+test_7 (__main__.lab2d.test_7)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test output with 1 args: ./lab2d.py Jon ... ok
+test_8 (__main__.lab2d.test_8)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test output with 2 args: ./lab2d.py Jon 20 ... ok
+test_9 (__main__.lab2d.test_9)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test output with 3 args: ./lab2d.py Jon 20 More ... ok
+test_0 (__main__.lab2e.test_0)
+[Lab 2] - [Investigation 3] - [Part 1] - while loop with timer 10 - Test for file creation: ./lab2e.py ... FAIL
 
 ======================================================================
-FAIL: test_2 (__main__.lab2d.test_2)
-[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for correct shebang line: ./lab2d.py
+FAIL: test_0 (__main__.lab2e.test_0)
+[Lab 2] - [Investigation 3] - [Part 1] - while loop with timer 10 - Test for file creation: ./lab2e.py
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/home/jgylagan/ops445/lab2/lab-2-JohnGabrielYlagan/./CheckLab2.py", line 194, in test_2
-    self.assertEqual(first_line.strip(), '#!/usr/bin/env python3', msg=error_output)
-AssertionError: '' != '#!/usr/bin/env python3'
-+ #!/usr/bin/env python3
- : your program does not have a correct shebang line (HINT: what should the first line contain)
+  File "/home/jgylagan/ops445/lab2/lab-2-JohnGabrielYlagan/./CheckLab2.py", line 272, in test_0
+    self.assertTrue(os.path.exists('./lab2e.py'), msg=error_output)
+AssertionError: False is not true : your file cannot be found (HINT: make sure your file are in the correct directory)
 
 ----------------------------------------------------------------------
-Ran 17 tests in 0.087s
+Ran 25 tests in 0.184s
 
 FAILED (failures=1)
 OPS445 Lab Report - System Information for running ./CheckLab2.py
@@ -60,5 +74,5 @@ OPS445 Lab Report - System Information for running ./CheckLab2.py
     Python version:  3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
     OS Platform: linux
     Working Directory: /home/jgylagan/ops445/lab2/lab-2-JohnGabrielYlagan
-    Start at: Fri May 23 14:34:11 2025
+    Start at: Fri May 23 15:56:41 2025
 =================================================================
