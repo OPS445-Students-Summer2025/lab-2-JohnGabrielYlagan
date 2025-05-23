@@ -29,12 +29,7 @@ import sys
 #print("\nNumber of arguments (len(sys.argv)):")
 #print(len(sys.argv))
 
-#sys.exit()  # Exit before running anything else
-#print("This line will not be shown because sys.exit() ends the script")
-
-if len(sys.argv) != 3:
-    print("Usage: " + sys.argv[0] + " NAME AGE")
-    sys.exit()
+#sys.exit()  # Exit 
 
 # Assign the input arguments
 name = sys.argv[1]
