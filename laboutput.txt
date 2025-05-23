@@ -50,19 +50,41 @@ test_8 (__main__.lab2d.test_8)
 test_9 (__main__.lab2d.test_9)
 [Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test output with 3 args: ./lab2d.py Jon 20 More ... ok
 test_0 (__main__.lab2e.test_0)
-[Lab 2] - [Investigation 3] - [Part 1] - while loop with timer 10 - Test for file creation: ./lab2e.py ... FAIL
+[Lab 2] - [Investigation 3] - [Part 1] - while loop with timer 10 - Test for file creation: ./lab2e.py ... ok
+test_1 (__main__.lab2e.test_1)
+[Lab 2] - [Investigation 3] - [Part 1] - while loop with timer 10 - Test for errors: ./lab2e.py ... ok
+test_2 (__main__.lab2e.test_2)
+[Lab 2] - [Investigation 3] - [Part 1] - while loop with timer 10 - Test for correct shebang line: ./lab2e.py ... ok
+test_4 (__main__.lab2e.test_4)
+[Lab 2] - [Investigation 3] - [Part 1] - while loop with timer 10 - Test for output: ./lab2e.py ... ok
+test_0 (__main__.lab2f.test_0)
+[Lab 2] - [Investigation 3] - [Part 2] - while loops & sys.argv - Test for file creation: ./lab2f.py ... ok
+test_1 (__main__.lab2f.test_1)
+[Lab 2] - [Investigation 3] - [Part 2] - while loops & sys.argv - Test for errors with with 0 arguments): ./lab2f.py ... ok
+test_2 (__main__.lab2f.test_2)
+[Lab 2] - [Investigation 3] - [Part 2] - while loops & sys.argv - Test for correct shebang line: ./lab2f.py ... ok
+test_4 (__main__.lab2f.test_4)
+[Lab 2] - [Investigation 3] - [Part 2] - while loops & sys.argv - Test for errors: ./lab2f.py 10 ... ok
+test_5 (__main__.lab2f.test_5)
+[Lab 2] - [Investigation 3] - [Part 2] - while loops & sys.argv - Test for errors: ./lab2f.py 5 ... ok
+test_6 (__main__.lab2f.test_6)
+[Lab 2] - [Investigation 3] - [Part 2] - while loops & sys.argv - Test output with: ./lab2f.py 10 ... ok
+test_7 (__main__.lab2f.test_7)
+[Lab 2] - [Investigation 3] - [Part 2] - while loops & sys.argv - Test output with: ./lab2f.py 5 ... ok
+test_0 (__main__.lab2g.test_0)
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test for file creation: ./lab2g.py ... FAIL
 
 ======================================================================
-FAIL: test_0 (__main__.lab2e.test_0)
-[Lab 2] - [Investigation 3] - [Part 1] - while loop with timer 10 - Test for file creation: ./lab2e.py
+FAIL: test_0 (__main__.lab2g.test_0)
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test for file creation: ./lab2g.py
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/home/jgylagan/ops445/lab2/lab-2-JohnGabrielYlagan/./CheckLab2.py", line 272, in test_0
-    self.assertTrue(os.path.exists('./lab2e.py'), msg=error_output)
+  File "/home/jgylagan/ops445/lab2/lab-2-JohnGabrielYlagan/./CheckLab2.py", line 375, in test_0
+    self.assertTrue(os.path.exists('./lab2g.py'), msg=error_output)
 AssertionError: False is not true : your file cannot be found (HINT: make sure your file are in the correct directory)
 
 ----------------------------------------------------------------------
-Ran 25 tests in 0.184s
+Ran 36 tests in 0.275s
 
 FAILED (failures=1)
 OPS445 Lab Report - System Information for running ./CheckLab2.py
@@ -74,5 +96,5 @@ OPS445 Lab Report - System Information for running ./CheckLab2.py
     Python version:  3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
     OS Platform: linux
     Working Directory: /home/jgylagan/ops445/lab2/lab-2-JohnGabrielYlagan
-    Start at: Fri May 23 15:56:41 2025
+    Start at: Fri May 23 16:26:39 2025
 =================================================================
