@@ -72,21 +72,28 @@ test_6 (__main__.lab2f.test_6)
 test_7 (__main__.lab2f.test_7)
 [Lab 2] - [Investigation 3] - [Part 2] - while loops & sys.argv - Test output with: ./lab2f.py 5 ... ok
 test_0 (__main__.lab2g.test_0)
-[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test for file creation: ./lab2g.py ... FAIL
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test for file creation: ./lab2g.py ... ok
+test_1 (__main__.lab2g.test_1)
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test for errors: ./lab2g.py ... ok
+test_2 (__main__.lab2g.test_2)
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test for correct shebang line: ./lab2g.py ... ok
+test_4 (__main__.lab2g.test_4)
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test for errors: ./lab2g.py 5 ... ok
+test_5 (__main__.lab2g.test_5)
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test for errors: ./lab2g.py 10 ... ok
+test_6 (__main__.lab2g.test_6)
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test output with no arguments: ./lab2g.py ... ok
+test_7 (__main__.lab2g.test_7)
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test output with: ./lab2g.py 5 ... ok
+test_8 (__main__.lab2g.test_8)
+[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test output with: ./lab2g.py 10 ... ok
+test_0 (__main__.lab2out.test_0)
+[Lab 2 Output and Email Verification] ... skipped 'checked after submission. Students: ignore'
 
-======================================================================
-FAIL: test_0 (__main__.lab2g.test_0)
-[Lab 2] - [Investigation 3] - [Part 3] - while loops, sys.argv & if - Test for file creation: ./lab2g.py
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/home/jgylagan/ops445/lab2/lab-2-JohnGabrielYlagan/./CheckLab2.py", line 375, in test_0
-    self.assertTrue(os.path.exists('./lab2g.py'), msg=error_output)
-AssertionError: False is not true : your file cannot be found (HINT: make sure your file are in the correct directory)
+Ran 44 tests in 0.334s
 
-----------------------------------------------------------------------
-Ran 36 tests in 0.274s
-
-FAILED (failures=1)
+OK (skipped=1)
 OPS445 Lab Report - System Information for running ./CheckLab2.py
 =================================================================
     User login name: jgylagan
@@ -96,5 +103,5 @@ OPS445 Lab Report - System Information for running ./CheckLab2.py
     Python version:  3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
     OS Platform: linux
     Working Directory: /home/jgylagan/ops445/lab2/lab-2-JohnGabrielYlagan
-    Start at: Fri May 23 16:29:39 2025
+    Start at: Fri May 23 16:37:25 2025
 =================================================================
