@@ -42,7 +42,7 @@ Traceback (most recent call last):
 AssertionError: False is not true : your script cannot be found (HINT: make sure AND your file are in the correct directory)
 
 ----------------------------------------------------------------------
-Ran 15 tests in 0.090s
+Ran 15 tests in 0.082s
 
 FAILED (failures=1)
 OPS445 Lab Report - System Information for running ./CheckLab2.py
@@ -54,5 +54,5 @@ OPS445 Lab Report - System Information for running ./CheckLab2.py
     Python version:  3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
     OS Platform: linux
     Working Directory: /home/jgylagan/ops445/lab2/lab-2-JohnGabrielYlagan
-    Start at: Fri May 23 13:15:53 2025
+    Start at: Fri May 23 13:32:28 2025
 =================================================================
